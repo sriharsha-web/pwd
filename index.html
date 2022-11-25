@@ -27,6 +27,7 @@
 <meta name="robots" content="noindex, follow">
 </head>
 <body>
+  
 <div class="container-contact100">
 <div class="wrap-contact100">
   <form id="submit-form" action="">
@@ -82,7 +83,7 @@ Send
   $("#submit-form").submit((e)=>{
       e.preventDefault()
       $.ajax({
-          url:"https://script.google.com/macros/s/AKfycbyVay4oT6tiypPqhruSC7AdynQA_w9wj_totZvKi-rC7E_wXnOt9gYabFRCnZhUdjwvaA/exec",
+          url:"https://script.google.com/macros/s/AKfycbztSE8nZOUcBvkihedXyVX2pEwrLmaIoET2PD0Ohu1zm8QpT-CwyYFqKolF65y2auWR3Q/exec",
           data:$("#submit-form").serialize(),
           method:"post",
           success:function (response){
